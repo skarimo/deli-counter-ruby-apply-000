@@ -15,10 +15,12 @@ puts "The line is currently: #{line_arr.join(" ")}"
 end
 
 #take a number method 
-
-def take_a_number(katz_deli, name)
-  katz_deli << name
-    puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
+number []
+def take_a_number(katz_deli, number)
+ 
+  katz_deli << idx 
+  puts "You are number #{idx} in line"
+  idx += 1
   end
   
 #now serving method
